@@ -1,0 +1,220 @@
+body{        
+    size: 1920px 3000px;  
+    background-image: url("../../assets/images/ss13/history.png");
+    background-color: black;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: auto;
+    background-position: top;
+    margin-bottom: 0;
+}
+.page-header{
+    top: 0;
+    left: 0;
+}
+.page-header__container{
+    box-sizing: border-box;
+    margin: auto 0px;
+    padding-left: 25px;
+    max-width: 1438px;
+    max-height: 388;
+    display: flex;
+    align-items: center;
+}
+.page-header__nav{
+    display: inline-block;
+}
+.page-header__logo{
+    margin-right: 150px;
+}
+.page-header__nav-activelink{
+    color: azure;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 150%;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-image: url("../../assets/images/ss13/header/informationR.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.page-header__nav-proflink{
+    color: azure;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 150%;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-image: url("../../assets/images/ss13/header/proffesion.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.page-header__nav-histlink{
+    color: azure;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 150%;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-image: url("../../assets/images/ss13/header/historyG.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.page-header__nav-antlink{
+    color: azure;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 150%;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-image: url("../../assets/images/ss13/header/antoganist.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.history{
+    padding-top: 212px;
+    position: relative;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding-left: 40px;
+    padding-right: 40px;
+    max-width: 1400px;
+    width: 100%;
+}
+.main-header{
+    padding: 25px;
+    background: url("../../assets/images/ss13/historyBack.png") no-repeat 0 0;
+    background-position: center;
+    background-size: contain;
+}
+.main-header__title{
+    padding-left: 20px;
+    padding-right: 20px;
+    color: azure;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: calibri;
+    font-size: 220%;
+    font-weight: bolder;
+    line-height: normal;
+    
+}
+.history-container{
+    flex-direction: column;
+    margin-bottom: 220px;
+}
+.listing{
+    margin-top: 120px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 120px 60px;
+}
+.listing-card__history{
+    max-width: 400px;
+    width: calc(33.333%-10px);
+}
+.listing-card{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    padding-top: 25px;
+    
+}
+.card-history__image{
+    position: relative;
+    display: block;
+    margin-bottom: 20px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    background-color: rgb(36, 36, 36);
+    
+}
+.card-history__image-png{
+    width: 200px;
+    object-fit: cover;
+}
+.card-history__link{
+    text-decoration: none;
+}
+.card-history__title{
+    text-align: center;
+    color: azure;
+    font-size: 48px;
+    font-family: calibri;
+    font-weight: bold;
+}
+.card-history__text{
+    text-align: center;
+    color: azure;
+    font-size: 28px;
+    font-family: calibri;
+}
+#rcorners1 {
+    border-radius: 40px;
+    background: #414141;
+    padding: 20px; 
+    width: 400px;
+    height: 1200px;  
+}
+.card-history__line{
+    width: 355px;
+    height: 5px;
+    background-color: aliceblue;
+    position: relative;
+    bottom: 20px;
+}
+.page-footer{
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.page-footer__container{
+    box-sizing: border-box;
+    margin-top: auto 0;
+    margin-left: auto 0;
+    margin-right: auto 0;
+    padding-left: 250px;
+    padding-right: 250px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.footer-text{
+    margin-bottom: 0;
+    color: azure;
+    text-align: center;
+    max-width: 1200px;
+    font-family: calibri;
+    font-size: 36;
+    font-weight: bold;
+    line-height: normal;
+    background: url("../../assets/images/ss13/footerH.png") no-repeat;
+    background-size: cover;
+    background-clip:border-box;
+    padding: 25px;
+    padding-top: 50px;
+}
